@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Банкомат</string>
+    <string name="entry">Войти</string>
+    <string name="main_menu">ГЛАВНОЕ МЕНЮ</string>
+    <string name="get_cash_textview">ПОЛУЧИТЬ НАЛИЧНЫЕ</string>
+    <string name="put_cash_textview">ВНЕСТИ НАЛИЧНЫЕ</string>
+</resources>

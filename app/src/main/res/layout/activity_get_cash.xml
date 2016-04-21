@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="ru.biv131.bankomat.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/get_cash_textview"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Получить\n 500р."
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFF"
+            android:id="@+id/btn_get_cash_500"
+            android:onClick="OnClickCash"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Получить\n 1000р."
+            android:layout_gravity="right"
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFF"
+            android:id="@+id/btn_get_cash_1000"
+            android:onClick="OnClickCash"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Получить\n 2000р."
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFF"
+            android:id="@+id/btn_get_cash_2000"
+            android:onClick="OnClickCash"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Получить\n 3000р."
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFF"
+            android:id="@+id/btn_get_cash_3000"
+            android:onClick="OnClickCash"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Получить\n 5000р."
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFF"
+            android:id="@+id/btn_get_cash_5000"
+            android:onClick="OnClickCash"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Выбрать другую сумму"
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFF"
+            android:id="@+id/btn_get_other_cash"
+            android:onClick="OnClickCash"
+            />
+    </LinearLayout>
+
+</LinearLayout>
